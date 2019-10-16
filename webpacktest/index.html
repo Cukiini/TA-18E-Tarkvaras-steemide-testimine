@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <ul>
+                <li v-for="el in list">{{el}}</li>
+            </ul>
+                <input type="text" v-model="newItem"/>
+                <button v-on:click="add">add</button>
+        </div>
+        <script>
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    list: ['milk', 'bread', 'chips'],
+                    newItem: ''
+                },
+                methods: {
+                    add() {
+                        this.list.push(this.newItem);
+                        this.newItem = '';
+                    }
+                }
+            });
+        </script>
+    </body>
+
+    <template>
+        <div>
+          <h1>{{ message }}</h1><br>
+          <input type="text" v-model="message">
+        </div>
+      </template>
+      <script>
+      export default {
+        data(){
+          return {
+            message: ''
+          }
+        }
+      }
+      </script>
+      <style>
+      </style>
+      Collapse
+      
+      <script type="module">
+        import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.esm.browser.js'
+      </script>
+      
+      
+      

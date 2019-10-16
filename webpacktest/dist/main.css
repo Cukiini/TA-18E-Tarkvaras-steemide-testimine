@@ -1,0 +1,10 @@
+body {
+    background-color: #b00b55;
+    color: #FFF;
+}
+
+#foo {
+    height:100px;
+    width: 100px;
+    background-color: coral;
+}

@@ -91,9 +91,20 @@
   !*** ./src/main.js ***!
   \*********************/
 /*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// import Notification from './Notification';\n// Notification.notify('SSSSSSSSS');\n// Notification.log('Hello console');\n//require('./main.css');\n// class hello {\n//     constructor(){\n//         alert(\"hello Class\");\n//     }\n// }\n// new hello();\n__webpack_require__(/*! ./main.scss */ \"./src/main.scss\");\n\n//# sourceURL=webpack:///./src/main.js?");
+
+/***/ }),
+
+/***/ "./src/main.scss":
+/*!***********************!*\
+  !*** ./src/main.scss ***!
+  \***********************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("alert(\"hello\");\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("\n\n//# sourceURL=webpack:///./src/main.scss?");
 
 /***/ })
 
